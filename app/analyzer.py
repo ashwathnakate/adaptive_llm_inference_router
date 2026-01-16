@@ -35,8 +35,6 @@ def analyze(user_query: str)-> dict:
         'briefly', 'define', 'extract', 'format', 'draft'
     ]    
     
-    # if query contains 12 words then word is complex
-    # {1 2 3 4 5 -> simple} {6 7 8 9 10 11 -> medium} {12...n -> complex}
     
     # remove the punctuation marks and split words
     query = user_query.lower()
