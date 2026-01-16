@@ -96,7 +96,7 @@ app/
 | Purpose        | Model                     |
 | -------------- | ------------------------- |
 | Fast responses | `llama-3.1-8b-instant`    |
-| Deep reasoning | `llama-3.1-70b-versatile` |
+| Deep reasoning | `llama-3.3-70b-versatile` |
 
 ---
 
