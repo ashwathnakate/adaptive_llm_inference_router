@@ -28,7 +28,7 @@ def handle_query(payload: QueryRequest):
     with Timer() as timer:
         success, model_used, answer = run(route_decision, payload.query)
 
-    # ---- HARD GUARD: never return empty or failed responses ----
+    # <---- HARD GUARD: never return empty or failed responses ---->
     if not success:
         answer = (
             "I couldn't generate a reliable response. "
