@@ -1,4 +1,4 @@
-# LLM Traffic Controller
+# Adaptive llm inference router
 
 An intelligent request routing system that dynamically selects the most suitable LLM model based on **query complexity, ambiguity, and reasoning depth**.
 
@@ -96,7 +96,7 @@ app/
 | Purpose        | Model                     |
 | -------------- | ------------------------- |
 | Fast responses | `llama-3.1-8b-instant`    |
-| Deep reasoning | `llama-3.1-70b-versatile` |
+| Deep reasoning | `llama-3.3-70b-versatile` |
 
 ---
 
