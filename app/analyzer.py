@@ -108,9 +108,9 @@ def analyze(user_query: str)-> dict:
         simplicity_norm * 0.3
     )
 
-    if complexity_score < 0.75:
+    if complexity_score < 0.5:
         complexity_level = 'low'
-    elif complexity_score < 1.5:
+    elif complexity_score < 1.2:
         complexity_level = 'medium'
     else:
         complexity_level = 'high'

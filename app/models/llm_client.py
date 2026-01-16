@@ -13,7 +13,7 @@ def get_client() -> Groq:
 # <---- Model registry ---------------------->
 
 FAST_MODEL = "llama-3.1-8b-instant"
-DEEP_MODEL = "llama-3.1-70b-versatile"
+DEEP_MODEL = "llama-3.3-70b-versatile"
 
 # <-------------- Executor ------------------->
 
